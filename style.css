@@ -1,0 +1,208 @@
+* {
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0; 
+    background-color: #444444;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-image: url('wp5284100.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-text {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1);
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.headshot {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.headshot:hover {
+    transform: scale(1.05);
+}
+
+.zebra-striped {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.zebra-striped tr:nth-child(even) {
+    background-color: #ffcccb;
+}
+
+.zebra-striped tr:nth-child(odd) {
+    background-color: #add8e6;
+}
+
+.zebra-striped td {
+    padding: 10px;
+    text-align: center;
+}
+
+.quote {
+    font-style: italic;
+    border-left: 5px solid #45b7d1;
+    padding-left: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+a {
+    color: #45b7d1;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #ff6b6b;
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background to improve text readability on images */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #45b7d1;
+    border-bottom: 2px solid #45b7d1;
+    padding-bottom: 5px;
+}
+
+.highlight {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.interest-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.interest-icons li {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.album-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.timeline {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline li:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #45b7d1;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.date {
+    font-weight: bold;
+    color: #45b7d1;
+}
+
+.dream-jobs {
+    padding-left: 20px;
+}
+
+.dream-jobs li {
+    margin-bottom: 10px;
+}
+
+.solar-system {
+    text-align: center;
+}
+
+.solar-system-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #45b7d1;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff6b6b;
+    color: white;
+    text-decoration: none;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.social-links li {
+    margin: 10px;
+}
