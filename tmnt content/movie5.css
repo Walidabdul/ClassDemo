@@ -62,8 +62,8 @@ body {
 	position: relative;
     column-count: 2;
     column-gap: 2%;
-	margin-top: 20px;
-	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 40px;
 	margin-right: 10px;
 	margin-left: 10px;
 }
@@ -74,7 +74,7 @@ body {
     border-radius: 0px;
     padding: 8px;
 	margin-top: 10px; 
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	margin-right: 10px;
 	margin-left: 10px;
 }
@@ -87,7 +87,8 @@ body {
 
 .reviewer {
 	margin-left: 10px;
-	margin-top: -35px;
+	margin-top: -45px;
+	margin-bottom: 15px; 
 	
 }
 
